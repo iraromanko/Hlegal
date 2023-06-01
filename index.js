@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.slider').slick(
         {
             accessibility: true,
-            // autoplay: true,
+            autoplay: true,
             autoplaySpeed: 3000,
             dots: true,
             arrows: false,
