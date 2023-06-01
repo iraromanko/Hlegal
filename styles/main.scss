@@ -95,12 +95,15 @@ body {
       .menu-btn {
         width: 30px;
         height: 30px;
-        position: relative;
         overflow: hidden;
+        position: fixed;
+        top: 66px;
+        right: 20px;
+        z-index: 50;
 
 
         &.active{
-          position: absolute;
+          position: fixed;
           top: 13px;
           right: 10px;
           z-index: 24;
