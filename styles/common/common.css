@@ -1,0 +1,135 @@
+@import "font.css";
+@import "reset.css";
+body {
+  font-family: "TT Norms", sans-serif;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #000000;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h3.caps {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  transition: all 0.3s;
+}
+.link:hover {
+  color: #F0145A;
+}
+
+.btn {
+  background: #24A3FF;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  transition: all 0.3s;
+  padding: 16px 24px 17px;
+}
+.btn:hover {
+  box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
+}
+.btn:active {
+  background: #006CCF;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.lang-buttons {
+  align-items: center;
+  gap: 4px;
+}
+.lang-buttons button {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 5px 6px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+.lang-buttons button:hover, .lang-buttons button:active {
+  background: #F0145A;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.slick-dots li:not(:last-of-type) {
+  margin-right: 14px;
+}
+.slick-dots button {
+  color: transparent;
+  background-color: transparent;
+}
+.slick-dots button:hover:after {
+  background-color: #F0145A;
+}
+.slick-dots button:after {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #24A3FF;
+  opacity: 0.2;
+}
+.slick-dots li.slick-active button:after {
+  opacity: 1;
+}
+
+.logo {
+  color: white;
+}
+
+/*# sourceMappingURL=common.css.map */
